@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="builder.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Builder</h1>
+
+        <!-- Form to input user information -->
+        <div class="form">
+            <label for="name">Full Name:</label>
+            <input type="name" id="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="phone" >Phone Number:</label>
+            <input type="number" id="phone" placeholder="Enter your phone number">
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" placeholder="Enter your address">
+
+            <label for="education">Education:</label>
+            <textarea id="education" placeholder="Enter your education background"></textarea>
+
+            <label for="experience">Experience:</label>
+            <textarea id="experience" placeholder="Enter your work experience"></textarea>
+
+            <label for="job role">Job role:</label>
+            <textarea id="job role" placeholder="Enter your job role"></textarea>
+
+            <label for="profile summary">Profile summary:</label>
+            <textarea id="profile summary" placeholder="Enter your profile summary"></textarea>
+
+           <label for="additional education">Additional education:</label>
+            <textarea id="additional education" placeholder="Enter your additional education"></textarea>
+            
+            <label for="post experience">Post experience:</label>
+            <textarea id="post experience" placeholder="Enter your post experience"></textarea>
+
+            <label for="projects">Pojects:</label>
+            <textarea id="projects" placeholder="Enter your projects"></textarea>
+
+            
+            <label for="skills">Skills:</label>
+            <textarea id="skills" placeholder="Enter your skills"></textarea>
+
+
+            <button type="button" onclick="generateResume()">Generate Resume</button>
+        </div>
+
+        <!-- Section to display the generated resume -->
+       
+    </div>
+    <div class="resume" id="resume">
+        <h2>Generated Resume</h2>
+        <div id="resumeOutput"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

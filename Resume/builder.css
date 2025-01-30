@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    padding: 20px;
+    background-color: #50A3B7;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+.form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #EBDCD7;
+    border-radius: 5px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3A6077;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;}
+.form button:hover {
+    background-color: #3A6077;
+}
+
+.resume {
+   
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black;
+    align-items: start;
+    text-align: start;
+    margin-left: 10%;
+    margin-bottom: 70%;
+    margin-top: 0%;
+}
+
+.resume h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#resumeOutput .resume {
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+}
